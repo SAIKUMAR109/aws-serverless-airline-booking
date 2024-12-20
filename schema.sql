@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS booking (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  passenger_name VARCHAR(255),
+  flight_number VARCHAR(255)
+);
